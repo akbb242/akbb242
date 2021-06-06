@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=
     <title>HP模写</title>
 </head>
 
 <body>
+<header> 
   <p1>カンタン出欠管理、日程調整ツール。<br>
       効率よくスケジュールを決めましょう。
   </p1>
@@ -19,10 +21,57 @@
       イベントの出欠確認や日程調整ができる出欠表ツールです。
   </p3>
   <img src="#" alt="参考写真">
+    
+</header>
+<main>
 <u1>
    <li>30秒でつくれる！カンタン出欠表</li>
 </u1>
-<p4>※イベント名は必須入力です。</p4>
+<form action="program.php" method="post">
+   <p>STEP1 イベント名<br>
+　　　※今期もお疲れ様でした飲み会、打ち合わせなど
+　 </p>
+　 <input type ="text" name="userName">
+
+   <P>メモ（任意）<br>
+　　　※飲み会の日程調整しましょう！出欠〆切は〇日
+　 </P>
+　 <input type="text" name="memo">
+
+   <P>STEP2候補日程
+      ※候補日程/日時を入力してください<br>
+      候補の区切りは開業で判断されます。<br>
+　 </P>
+　 <dl>
+　 　 <dt>例:</dt>
+      <dd>8/7（月）20:00～</dd>
+      <dd>8/8（火）20:00～</dd>
+      <dd>8/9（水）21:00～</dd>
+   </dl>
+
+   <input type="text" name="kouhonittei">
+
+   <p>↓日付をクリックすると日程に日時が入ります。</p>
+
+   <input type="date">
+
+   <p><a href="#">利用規約</a>に同意のうえ、</p>
+   <a href="#"><img src="#" alt="出欠表を作る"></a>
+</form>
+   <h1>調整さんがみんなに使われる3つのポイント</h1>
+   <img src="#" alt="イベント">
+   <p>ログインなしで簡単作成！</p>
+   <p>調整さんは飲み会、会議、同窓会、送別買いなどどんなイベントにも使えます</p>
+   <img src="#" alt="各種デバイス">
+   <p>パソコンやスマホで使える！</p>
+   <p>みんなが平等かつカンタンに扱えます。対応機種を気にする必要はありません。</p>
+   <img src="#" alt="2500万人突破！！">
+   <p></p>愛用者がたくさんいます！</p>
+   <p>6年前から様々な方々、イベントに使われてきました。これからも幹事さんを応援しつづけます！</p>
+   <h2>調整さんの関連サービス</h2>
+   <a href="#"><img src="#" alt="調整さんカレンダー"></a>
+   <a href="img/"><img src="#" alt="TimeRex"></a>
+</main>
 
 </body>
 </html>
